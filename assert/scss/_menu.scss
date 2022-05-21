@@ -1,0 +1,26 @@
+.brand-title {
+  @include heading-four;
+  font-weight: 700;
+}
+.top-bar-after {
+  width: 100%;
+  padding: 10px 0 10px 0;
+  background-color: $top-bat-bd-after !important;
+  transition: all 500ms ease-in-out;
+  a{
+    @include list-reset-after
+  }
+  position: fixed;
+  z-index: 10;
+}
+.top-bar-before {
+  width: 100%;
+  padding: 5px 0 5px 0;
+  background-color: $top-bat-bd-before !important;
+  transition: all 500ms ease-in-out;
+  a{
+    @include list-reset-a
+  }
+  position: fixed;
+  z-index: 10;
+}

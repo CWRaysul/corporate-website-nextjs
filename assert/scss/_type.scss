@@ -1,0 +1,63 @@
+//header
+.heading-one{
+  @include heading-one;
+  @include font-family-one;
+}
+.heading-two{
+  @include heading-two;
+  @include font-family-one;
+}
+.heading-three{
+  @include heading-three;
+  @include font-family-one;
+}
+.heading-four{
+  @include heading-four;
+  @include font-family-one;
+}
+//paragraph
+.p-one{
+  @include p-one;
+  @include font-family-one;
+}
+.p-two{
+  @include p-two;
+  @include font-family-one;
+}
+.p-three{
+  @include p-three;
+  @include font-family-one;
+}
+//fontawesome
+.FontAwesomeIconBackgorund{
+  @include FontAwesomeIconBackgorund;
+}
+.service-heading{
+  @include heading-one;
+  margin-top: 3rem;
+  text-align: $center;
+}
+.project-heading{
+  @include heading-one;
+  margin-top: 3rem;
+  text-align: $center;
+}
+.icon-one{
+  @include icon-one;
+}
+.icon-two{
+  @include icon-two;
+}
+.icon-three{
+  @include icon-three;
+}
+.footer ul li{
+  @include list-reset;
+  a{
+    @include list-reset-a;
+  }
+}
+//number
+.number-one{
+  @include number-one;
+}

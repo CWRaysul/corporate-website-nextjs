@@ -1,0 +1,83 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.loadering{
+  text-align: center;
+
+}
+.marginAndPadding{
+  @include marginAndPadding;
+}
+//! home page
+.heading-one{
+  @include heading-one;
+}
+.heading-three{
+  @include heading-three;
+}
+.topContent {
+  margin-top: 10rem;
+}
+/* start service */
+
+//start analysis
+.p-one{
+  @include p-one;
+}
+//counter section
+.count-section{
+  margin-top: 150px;
+  h1 {
+    color: #ffffff !important;
+    font-size: 40px;
+    font-weight: 700;
+  }
+  h4 {
+    color: #fff !important;
+    @include heading-three;
+    margin-top: -5px !important;
+  }
+}
+.summer-work{
+  background-color: $top-bat-bd-before;
+  width: 300px;
+  height: 220px;
+  padding: 10px;
+  text-align: left;
+  margin-top: 100px;
+  border-radius: 10px;
+  h1{
+    color: #fff !important;
+    @include heading-three;
+  }
+  ul{
+    margin-top: -15px;
+    float: left;
+    padding: 0;
+    li{
+      list-style: none;
+      color: #fff;
+      span{
+        @include FontAwesomeIconBackgorund;
+      }
+    }
+  }
+}
+
+.videoMani{
+    .videoPlay {
+      color: $playButtonColor;
+      FontAwesomeIcon{
+        padding: 5px;
+      }
+    }
+}
+//customer review
+.single-slider{
+  margin-bottom: 10px;
+}
+//page top banner
+.pageTop{
+  margin-top: 20px;
+}

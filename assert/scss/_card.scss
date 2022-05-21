@@ -1,0 +1,53 @@
+.service{
+  .card-title{
+    @include heading-four;
+  }
+  .card-text{
+    @include p-three;
+  }
+  .circle-img{
+    @include circleImg;
+  }
+  :hover { background-color: $card-hover-bg-one }
+}
+
+.project{
+  text-align: center;
+  .card-title{
+    @include heading-four;
+  }
+  p{
+    @include p-three;
+  }
+  .card-image{
+    @include card-image-one;
+  }
+  .cart-button{
+    background-color: $cart-button-one;
+    border: none;
+    &:hover{
+      color: #1d1919;
+    }
+  }
+  :hover { background-color: $card-hover-bg-one }
+}
+.customer{
+  text-align: center;
+  .card-title{
+    @include heading-four;
+  }
+  p{
+    @include p-three;
+  }
+  .card-image{
+    @include card-image-one;
+  }
+  .cart-button{
+    background-color: $cart-button-one;
+    border: none;
+    &:hover{
+      color: #1d1919;
+    }
+  }
+  :hover { background-color: $card-hover-bg-one }
+}

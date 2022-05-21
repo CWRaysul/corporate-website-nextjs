@@ -1,0 +1,18 @@
+.button-one{
+  @include button-one;
+  &:hover{
+    background: $hover-background;
+  }
+}
+.button-two{
+  @include  button-two;
+  &:hover{
+    background: $hover-background;
+  }
+}
+.primary{
+  @include button-two;
+  &:hover{
+    background: $hover-background;
+  }
+}

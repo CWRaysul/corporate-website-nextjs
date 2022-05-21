@@ -1,0 +1,194 @@
+﻿@mixin marginAndPadding{
+  padding: 30px 0 50px 0;
+  //margin: 20px 0 20px 0;
+}
+
+//ul li a
+@mixin list-ul{
+  padding: 0;
+  margin: 0;
+}
+@mixin list-ul-li{
+  list-style: none;
+}
+@mixin list-ul-li-last-child{
+  background:  $btn-color-lime;
+  color: $font-color-white;
+  font-weight: $font-weight-five;
+  &:hover { background: $font-color-white; }
+}
+@mixin conselting-image{
+  width: 30rem;
+}
+@mixin list-reset{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+@mixin list-reset-a {
+  text-transform: uppercase;
+  padding:  2px;
+  text-decoration: none;
+  color: $font-color-menu-white !important;
+  &:hover { color: $font-color-hover-menu !important;}
+}
+@mixin list-reset-after {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: $font-color-menu-white !important;
+  padding:  2px;
+  &:hover {
+     color: $font-color-hover-menu !important
+  }
+}
+
+@mixin top-bar-list {
+  float: left;
+  padding: $padding-y;
+  color: $font-color-white;
+  font-size: $font-size-five;
+}
+//header
+@mixin heading-one{
+  font-size: 2.5rem;
+  color: $font-color-red;
+  font-weight: 800;
+  text-align: $center;
+  text-transform: uppercase;
+}
+@mixin heading-two{
+  font-size: 1.2rem;
+  color: $font-color-red;
+  font-weight: $font-weight-two;
+  margin: 1rem 0;
+}
+@mixin heading-three{
+  font-size: 1.2rem;
+  color: $font-color-red;
+  font-weight: $font-weight-two;
+  text-transform: uppercase;
+  margin: 20px 0 20px 0;
+}
+@mixin heading-four{
+  font-size: 1rem;
+  color: $font-color-red;
+  font-weight: $font-weight-six;
+  text-transform: uppercase;
+}
+//paragraph
+@mixin p-one{
+  font-size: $font-size-five;
+  color: $font-color-gray;
+  font-width: $font-weight-five;
+  line-height: 2;
+  margin-bottom: 2rem;
+  text-align: justify;
+}
+@mixin p-two{
+  font-size: 1rem;
+  //color: $font-color-gray;
+  text-align: justify;
+}
+@mixin p-three{
+  font-size: 1rem;
+  //color: $font-color-gray;
+  margin-left: 1rem;
+  text-align: center;
+}
+//font awesome
+@mixin FontAwesomeIconBackgorund{
+  color: $font-color-white;
+  border-radius: 20%;
+  font-size: 10px;
+  padding: 10px;
+  margin-top: 1rem;
+}
+@mixin icon-one{
+  color: $icon-color-one;
+  margin-top: 1.5rem;
+  font-size: 1rem;
+  float: left;
+}
+@mixin icon-two{
+  float: left;
+  background: $top-bat-bd-before;
+  a{
+    color: $font-color-white;
+    font-size: 1rem;
+    padding: 5px 4px
+  }
+  border-radius: 100%;
+  margin: 2px;
+  padding: $padding-xy-three;
+  &:hover { background: $font-bd-hover-red; transform: skewY(20deg);  transition-delay: 0.3s;}
+}
+@mixin icon-three{
+  color: $icon-color-one;
+  margin: 1rem 1rem 0 0;
+  font-size: 1.5rem;
+  float: left;
+  width: 2rem;
+}
+//button
+@mixin button-one{
+  background: $top-bat-bd-before;
+  border-radius: 2rem;
+  padding: 0.9rem 3rem;
+  color: $font-color-white;
+  font-weight: $font-weight-five;
+  border: $border-zero;
+}
+@mixin button-two{
+  background: $top-bat-bd-before;
+  margin-top: 1rem;
+  padding: 0.3rem 1rem;
+  color: $font-color-white;
+  font-weight: $font-weight-six;
+  border: $border-zero;
+}
+//image
+@mixin circleImg{
+  border-radius: 50%;
+  width: 15rem;
+  height: 15rem;
+  border: 2px solid $border-color-one;
+  margin: 0 auto;
+}
+
+@mixin courseImg{
+  width: 15rem;
+  height: 15rem;
+  margin: 0 auto;
+}
+@mixin profileImag-one{
+  width: 100%;
+  height: 20rem;
+  max-width: 35rem;
+  object-fit: cover;
+}
+
+//testimonials
+@mixin testimonials-one {
+  .testimonials-title {
+    @include heading-two;
+    text-align: center;
+  }
+  .testimonials-p {
+    @include p-three;
+  }
+}
+//font
+@mixin font-family-one{
+  font-family: 'Roboto', sans-serif;
+}
+
+//number
+@mixin number-one{
+  color: $top-heading-bd;
+  font-size: 20px;
+}
+
+//card section
+@mixin card-image-one{
+  padding: 10px;
+}
