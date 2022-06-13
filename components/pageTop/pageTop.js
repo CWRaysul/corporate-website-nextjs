@@ -1,14 +1,14 @@
 import React, {Fragment} from "react";
 import {Container, Row, Col, Button} from "react-bootstrap";
 
-export default function PageTop(){
+export default function PageTop(props){
    return(
       <Fragment>
          <Container fluid={true} className="topPageBanner p-0 text-center">
             <Row>
-               <Col>
-                  <div className='text-center py-5'>
-                     <p className='heading-three pageTop'>Mobile and Web application</p>
+               <Col lg="12" md="12">
+                  <div className='text-center'>
+                     <p className='heading-three pageTop'>{props.title}</p>
                   </div>
                </Col>
             </Row>

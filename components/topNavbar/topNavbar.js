@@ -24,12 +24,11 @@ export default function TopNavbar() {
                 <Navbar.Collapse id="responsive-navbar-nav" className="navbar-nav">
                    <Nav className="me-auto"> </Nav>
                    <Nav>
-                      <Nav.Link href="#deets">Home</Nav.Link>
-                      <Nav.Link href="#deets">Service</Nav.Link>
-                      <Nav.Link href="#deets">Course</Nav.Link>
-                      <Nav.Link href="#deets">Portfolio</Nav.Link>
-                      <Nav.Link href="#deets">Contact</Nav.Link>
-                      <Nav.Link href="#deets">About</Nav.Link>
+                      <Nav.Link href="/">Home</Nav.Link>
+                      <Nav.Link href="course">Course</Nav.Link>
+                      <Nav.Link href="portfolio">Portfolio</Nav.Link>
+                      <Nav.Link href="contact">Contact</Nav.Link>
+                      <Nav.Link href="about">About</Nav.Link>
                    </Nav>
                 </Navbar.Collapse>
              </Container>

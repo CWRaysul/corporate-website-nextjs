@@ -5,14 +5,15 @@ import TopNavbar from '../components/topNavbar/topNavbar'
 import PageTop from '../components/pageTop/pageTop'
 import AboutDetails from '../components/about/aboutDetails'
 import Footer from '../components/footer/footer'
+import AllCourset from '../components/allCourses/allCourses'
  
 
 export default function about() {
   return (
     <div>
         <TopNavbar/>
-        <PageTop title='About'/>
-        <AboutDetails/>
+        <PageTop title='All Course'/>
+        <AllCourset/>
         <Footer/>
     </div>
   )

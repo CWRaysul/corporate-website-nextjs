@@ -5,6 +5,8 @@ import TopNavbar from '../components/topNavbar/topNavbar'
 import PageTop from '../components/pageTop/pageTop'
 import AboutDetails from '../components/about/aboutDetails'
 import Footer from '../components/footer/footer'
+import Contact from '../components/contact/contact'
+ 
  
 
 export default function about() {
@@ -12,7 +14,8 @@ export default function about() {
     <div>
         <TopNavbar/>
         <PageTop title='About'/>
-        <AboutDetails/>
+        <Contact/>
+        
         <Footer/>
     </div>
   )

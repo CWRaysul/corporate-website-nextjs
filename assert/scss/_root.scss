@@ -79,5 +79,29 @@
 }
 //page top banner
 .pageTop{
-  margin-top: 20px;
+  margin-top: 100px;
+}
+
+// about page 
+.about{
+  p{
+    text-align: justify;
+  }
+}
+// footer section
+.footerSection{
+  a{
+    text-decoration: none;
+    cursor: pointer;
+  }
+  p{
+    line-height: 1px;
+  }
+}
+
+// contact us page
+.contact{
+  button{
+    background-color: $btn-bg-red;
+  }
 }

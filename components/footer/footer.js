@@ -1,17 +1,19 @@
 import React, {Fragment} from "react";
 import {Container, Row, Col} from "react-bootstrap";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-import {faFacebook, faYoutube} from "@fortawesome/free-brands-svg-icons";
+import {faFacebook, faYoutube, faInstagram, faGooglePlus} from "@fortawesome/free-brands-svg-icons";
 
 export default function Footer(){
    return(
       <Fragment>
-         <Container className="marginAndPadding">
+         <Container className="marginAndPadding footerSection">
             <Row>
                <Col lg={3} md={3} sm={6}>
                   <h1 className="heading-three">Follow Me</h1>
                   <a className="socialLink" target="_blank" href="#"><FontAwesomeIcon  icon={faFacebook} /> Facebook</a><br/>
-                  <a className="socialLink" target="_blank" href="#"><FontAwesomeIcon  icon={faYoutube} /> YouTube</a>
+                  <a className="socialLink" target="_blank" href="#"><FontAwesomeIcon  icon={faYoutube} /> YouTube</a><br/>
+                  <a className="socialLink" target="_blank" href="#"><FontAwesomeIcon  icon={faInstagram} /> Instagram</a><br/>
+                  <a className="socialLink" target="_blank" href="#"><FontAwesomeIcon  icon={faGooglePlus} /> Google Plus</a><br/>
                </Col>
                <Col lg={3} md={3} sm={6}>
                   <h1 className="heading-three">Address</h1>
@@ -20,8 +22,8 @@ export default function Footer(){
 
                <Col lg={3} md={3} sm={6}>
                   <h1 className="heading-three">Information</h1>
-                  <p>About Me</p>
-                  <p>Contact Me</p>
+                  <a>About Me</a><br/>
+                  <a>Contact Me</a>
                </Col>
 
                <Col lg={3} md={3} sm={6}>

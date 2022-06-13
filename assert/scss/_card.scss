@@ -39,15 +39,18 @@
   p{
     @include p-three;
   }
+  .card{
+    margin-bottom: 20px;
+    border: 1px solid $border-color-two;
+  }
   .card-image{
     @include card-image-one;
   }
-  .cart-button{
-    background-color: $cart-button-one;
-    border: none;
-    &:hover{
-      color: #1d1919;
-    }
-  }
-  :hover { background-color: $card-hover-bg-one }
+}
+.portfolio{
+   .card{
+    margin-bottom: 20px;
+    border: 1px solid $border-color-two;
+    padding: 2%;
+   }
 }
